@@ -3,7 +3,7 @@ import React from "react";
 interface TaskInfo {
   title: string,
   description: string,
-  status: "done" | "inProgress" | "toDo"
+  status: "done" | "inProgress" | "toDo" | undefined
 }
 
 function TaskBlock({ title, description, status }: TaskInfo) {
